@@ -1,6 +1,6 @@
 # Naga
 ## Simplified Java NIO asynchronous sockets
-This library is not created by me :
+This library was not created by me :
 Automatically exported from code.google.com/p/naga
 
 Creating a simple echo server.
