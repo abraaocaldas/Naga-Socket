@@ -1,14 +1,13 @@
-## Naga
-# Simplified Java NIO asynchronous sockets
-
+# Naga
+## Simplified Java NIO asynchronous sockets
+This library is not created by me :
 Automatically exported from code.google.com/p/naga
-Fixed example for version 3.0 , changed the example to match android 4.0+
 
 Creating a simple echo server.
 Introduction
 This examples shows how to create a simple echo server using Naga.
 
-Note that this example is slightly out of date for 1.1.
+Note that this example is slightly  ~~out of date for 1.1~~. Fixed example for version 3.0 , changed the example to match android 4.0+
 
 Details
 ###Creating a NIOService
