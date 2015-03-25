@@ -1,4 +1,6 @@
-# naga
+## Naga
+# Simplified Java NIO asynchronous sockets
+
 Automatically exported from code.google.com/p/naga
 Fixed example for version 3.0 , changed the example to match android 4.0+
 
@@ -9,15 +11,17 @@ This examples shows how to create a simple echo server using Naga.
 Note that this example is slightly out of date for 1.1.
 
 Details
-Creating a NIOService
+###Creating a NIOService
 The first thing we want to do is to create a new NIOService object. This object will hold our Selector and is our factory for creating Sockets.
-
+```
 NIOService service = new NIOService();
+```
 At this point nothing is running yet.
 
 To run a pass and execute all NIO reads and writes queued up, we would write:
-
+```
 service.selectNonBlocking();
+```
 You can also make non-blocking calls, which is useful for putting the selector in its own thread.
 
 This code would start a thread, which would then run all IO for the NIOService until the service shuts down. Note that you should never call the select calls from more than one thread at a time.
